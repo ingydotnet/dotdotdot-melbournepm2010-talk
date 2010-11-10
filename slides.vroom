@@ -1,0 +1,77 @@
+# This is a sample Vroom input file. It should help you get started.
+#
+# Edit this file with your content. Then run `vroom --vroom` to start
+# the show!
+#
+# See `perldoc Vroom` for complete details.
+#
+---- config
+# Basic config options.
+title: Vroom!
+indent: 5
+height: 24
+width: 70
+skip: 0
+---- center
+... - döt döt döt
+
+Taming Unix Dot Files
+
+Melbourne Perl Mongers
+
+Wednesday, 10 November, 2010
+
+by Ingy döt Net
+
+----
+== Ingy döt Net
+
++* Why is he down under?
++* Strategic Data
++* OSDC 2010 (November 24 - 26)
++  * Taipei
+  * Paris
+  * Melbourne
+
++    * The Fucking Keynote!
+----
+Question: What is the Biggest Unsolved Problem in Computer Science?
+
++* P == NP?
++* World peace?
++* Git on Windows?
+
++    Nooooo!
+
++Answer: It's Unix Dot File Management!
+----
+== Introducing ...
+
++* Today the problem was solved!
++* Presented in this very room for the first time!
++* Anyone want to try it?
+----
+== Installing ...
+
+    > cd $HOME
+    > git clone git://github.com/ingydotnet/....git
+    > cd .../src
+    > # Get collections of dot files from various places
+    > git clone git://github.com/ingydotnet/dotdotdot.git ingy
+    > svn checkout some/svn/dot/file/repo stuff
+    > cd ..
+    > cp conf.example conf
+    > vim conf              # Edit the ... configuration file
+    > ... -h                # Show ... help info
+    > ... backup            # Backup your existing dot files
+    > ... install           # Install your new dot files
+----
+== Other Recent Low Level Ingy-ware
+----
+== AYCABTU
+
++== All Your Codes Are Belong To Us
+----
+== Any Questions
+----
+== The End
