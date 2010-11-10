@@ -1,0 +1,52 @@
+<html>
+<head>
+<title>013</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script>
+function navigate(e) {
+    var keynum = (window.event) // IE
+        ? e.keyCode
+        : e.which;
+    if (keynum == 8) {
+        window.location = "012" + ".html";
+        return false;
+    }
+    if (keynum == 13 || keynum == 32) {
+        window.location = "014" + ".html";
+        return false;
+    }
+    if (keynum == 73 || keynum == 105) {
+        window.location = "index.html";
+        return false;
+    }
+    return true;
+}
+</script>
+</head>
+<body onkeypress="return navigate(event)">
+<pre>
+
+
+
+         aycabtu --all
+         aycabtu --all --list
+         aycabtu -a --status
+         aycabtu -a -s --quiet
+         aycabtu 1-4 -s --verbose
+         aycabtu -a --update ??? NO WAY!
+     
+         aycabtu --tags=testml
+         aycabtu --tags=testml,perl6
+         aycabtu --tags=testml --tags=perl6
+         aycabtu *aycabt*
+     
+         aycabtu *-talk
+         aycabtu *-ppw2010-talk -s
+
+
+
+
+
+
+</pre>
+</body>
