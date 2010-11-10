@@ -26,14 +26,18 @@ by Ingy döt Net
 ----
 == Ingy döt Net
 
-+* Why is he down under?
++* The Original Acmeist
+  * Doing Good Stuff for All Languages
+  * C'Dent, TestML, Pegex
+  * Perl, Python, Ruby
++* Why am I Down Under?
 +* Strategic Data
 +* OSDC 2010 (November 24 - 26)
 +  * Taipei
   * Paris
   * Melbourne
-
-+    * The Fucking Keynote!
+    * Acmeism...
++      ... The Fucking Keynote!
 ----
 Question: What is the Biggest Unsolved Problem in Computer Science?
 
@@ -46,17 +50,25 @@ Question: What is the Biggest Unsolved Problem in Computer Science?
 +Answer: It's Unix Dot File Management!
 ----
 == Introducing ...
++== Introducing >...<
++== >>>>>>>...<<<<<<<
 
 +* Today the problem was solved!
 +* Presented in this very room for the first time!
-+* Anyone want to try it?
+
++    I call the solution ...
+
++       Dot Dot Dot
+
++    by Ingy "Dot Dot" dot Net!
+
++* Anyone want to try it? :-)
 ----
 == Installing ...
 
     > cd $HOME
     > git clone git://github.com/ingydotnet/....git
     > cd .../src
-    > # Get collections of dot files from various places
     > git clone git://github.com/ingydotnet/dotdotdot.git ingy
     > svn checkout some/svn/dot/file/repo stuff
     > cd ..
@@ -66,12 +78,95 @@ Question: What is the Biggest Unsolved Problem in Computer Science?
     > ... backup            # Backup your existing dot files
     > ... install           # Install your new dot files
 ----
+== Overview
+
+* ....git is a git repo
+* bin/... is the command line tool.
+  * Written in Perl
+  * No dependencies
+  * Inlines YAML::Tiny
+    * Patched Alias-ware today
+
+    > show ~/.../bin/...
+----
 == Other Recent Low Level Ingy-ware
+
+* Vroom
+* AYCABTU
+----
+== Vroom - Presentations in a Jiffy
+
+* One text file split up and pretty printed
+* Show in vim with helper commands
+* Every talk is a git repo
+* Every talk has a gh-pages branch
+----
+    vroom -new
+
+    * Live Demo *
+
+    * Show this `slides.vroom`
 ----
 == AYCABTU
 
 +== All Your Codes Are Belong To Us
+
+* Ingy has 125 Repos on GitHub
+
++* Want to have 1000s
+
+* Hard to keep track of them all
+* Hard to move around from machine to machine
+* Acmeism makes it harder
 ----
-== Any Questions
+== AYCABTU To The Rescue
+
+* Allows you to tag repos
+* Guesses many tags for you
+* Allows you to perform actions on sets
+* Quiet/Normal/Verbose
+
+----
+== EVERYTHING IS A GITHUB REPO - aycatu-ingydotnet
+
+> cd src
+
+> ls -l AYCABTU 
+lrwxrwxrwx 1 ingy AYCABTU -> aycabt-ingydotnet/AYCABTU
+
+> cat AYCABTU
+- repo: git@github.com:ingydotnet/aycabt-ingydotnet.git
+  tags: aycabtu current
+- repo: git@github.com:ingydotnet/boolean-pm.git
+  tags: perl cpan
+- repo: git@github.com:ingydotnet/cdent.git
+  tags: python acmeism
+
+----
+    aycabtu --all
+    aycabtu --all --list
+    aycabtu -a --status
+    aycabtu -a -s --quiet
+    aycabtu 1-4 -s --verbose
+    aycabtu -a --update ??? NO WAY!
+
+    aycabtu --tags=testml
+    aycabtu --tags=testml,perl6
+    aycabtu --tags=testml --tags=perl6
+    aycabtu *aycabt*
+
+    aycabtu *-talk
+    aycabtu *-ppw2010-talk -s
+----
+== Possible Plugins
+
+* aycabtu testml* --commit=patch,schwern
+* aycabtu *-talk --update-ghpages
+* aycabtu *-pm --release-to-cpan
+
+----
+== Any Questions?
 ----
 == The End
+
+== http://ingydotnet.github.com/dotdotdot-melbournepm2010-talk/
